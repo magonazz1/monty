@@ -82,64 +82,64 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
 
 Here is a list of the tasks you need to complete for this project:
 
-1. **push, pall**
+0. **push, pall**
    - Implement the push and pall opcodes.
 
-2. **pint**
+1. **pint**
    - Implement the pint opcode.
 
-3. **pop**
+2. **pop**
    - Implement the pop opcode.
 
-4. **swap**
+3. **swap**
    - Implement the swap opcode.
 
-5. **add**
+4. **add**
    - Implement the add opcode.
 
-6. **nop**
+5. **nop**
    - Implement the nop opcode.
 
-7. **sub (Advanced)**
+6. **sub (Advanced)**
    - Implement the sub opcode.
 
-8. **div (Advanced)**
+7. **div (Advanced)**
    - Implement the div opcode.
 
-9. **mul (Advanced)**
+8. **mul (Advanced)**
    - Implement the mul opcode.
 
-10. **mod (Advanced)**
+9. **mod (Advanced)**
     - Implement the mod opcode.
 
-11. **comments (Advanced)**
+10. **comments (Advanced)**
     - Implement commenting functionality.
 
-12. **pchar (Advanced)**
+11. **pchar (Advanced)**
     - Implement the pchar opcode.
 
-13. **pstr (Advanced)**
+12. **pstr (Advanced)**
     - Implement the pstr opcode.
 
-14. **rotl (Advanced)**
+13. **rotl (Advanced)**
     - Implement the rotl opcode.
 
-15. **rotr (Advanced)**
+14. **rotr (Advanced)**
     - Implement the rotr opcode.
 
-16. **stack, queue (Advanced)**
+15. **stack, queue (Advanced)**
     - Implement the stack and queue opcodes.
 
-17. **Brainf*ck (Advanced)**
+16. **Brainf*ck (Advanced)**
     - Write a Brainf*ck script that prints "School," followed by a new line.
 
-18. **Add two digits (Advanced)**
+17. **Add two digits (Advanced)**
     - Add two digits given by the user.
 
-19. **Multiplication (Advanced)**
+18. **Multiplication (Advanced)**
     - Multiply two digits given by the user.
 
-20. **Multiplication level up (Advanced)**
+19. **Multiplication level up (Advanced)**
     - Multiply two digits given by the user.
 
 ## AUTHOR

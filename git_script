@@ -1,0 +1,6 @@
+#!/bin/bash
+git config --global user.name "magonazz1"
+git config --global user.email "martinmagonazz@outlook.com"
+git add .
+git commit -m "uplink - README.md file"
+git push

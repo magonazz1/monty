@@ -1,11 +1,13 @@
 #include "monty.h"
 
+void monty_push(stack_t **stack, unsigned int line_number, char **op_toks);
+
 /**
  * monty_push - Pushes a value onto a stack_t linked list.
  * @stack: A pointer to the top node of a stack_t linked list.
  * @line_number: The current line number in a Monty bytecode file.
  */
-void monty_push(stack_t **stack, unsigned int line_number)
+void monty_push(stack_t **stack, unsigned int line_number, char **op_toks)
 {
 	stack_t *temp, *new_node;
 	int i;

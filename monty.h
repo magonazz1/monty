@@ -1,6 +1,8 @@
 #ifndef MONTY_H
 #define MONTY_H
 
+extern char **op_toks;
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -8,9 +10,6 @@
 #define STACK 0
 #define QUEUE 1
 #define DELIMS " \n\t\a\b"
-
-/* GLOBAL OPCODE TOKENS */
-extern char **op_toks;
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
@@ -57,7 +56,9 @@ char **strtow(char *str, char *delims);
 char *get_int(int n);
 
 /* OPCODE FUNCTIONS */
-void monty_push(stack_t **stack, unsigned int line_number);
+/* void monty_push(stack_t **stack, unsigned int line_number); */
+
+void monty_push(stack_t **stack, unsigned int line_number, char **op_toks);
 void monty_pall(stack_t **stack, unsigned int line_number);
 void monty_pint(stack_t **stack, unsigned int line_number);
 void monty_pop(stack_t **stack, unsigned int line_number);
